@@ -11,10 +11,15 @@ Please download all files and install requests python module:
 
 # How to use
 
-There are a 2 parameters:
- -d  : number of days (mandatory)
- -m  : message ID (optional)
+There are a 2 parameters:  
+ -d  : number of days (mandatory)  
+ -m  : message ID (optional)  
+     
 
+The script will list all of the messages if You do not specify the Message ID.  
+
+
+Example:
 
 ```py
 python3 sma_message_tracking.py  -d 1 -m 11244
