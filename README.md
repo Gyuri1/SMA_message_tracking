@@ -2,14 +2,14 @@
 
 This python script demonstrates how to use  Message Tracking API capabilities of Security Management Appliance (SMA)
 
-# How to install
+# How to install:  
 
-Please download all files and install requests python module:
+Please download all the files from this repository and install `requests` python module:
 
 `pip install requests`
 
 
-# How to use
+# How to use:  
 
 There are a 2 parameters:  
  -d  : number of days (mandatory)  
