@@ -5,9 +5,9 @@ This python script demonstrates how to use  Message Tracking API capabilities of
 # How to install:  
 
 Please download all the files from this repository and install `requests` python module:
-
 `pip install requests`
 
+Modify the `sma_credentials.py` file content according to Your parameters!
 
 # How to use:  
 
