@@ -13,7 +13,7 @@ Modify the `sma_credentials.py` file content according to Your parameters!
 
 # How to use:  
 
-There are a 2 parameters:  
+There are 2 parameters of this script:  
  -d  : number of days (mandatory)  
  -m  : message ID (optional)  
      
