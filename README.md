@@ -37,3 +37,7 @@ Message MID: 11244  {
 }
 
 ```
+
+Useful reference:  
+https://www.cisco.com/c/en/us/td/docs/security/esa/esa15-0/api_guide/b_Secure_Email_API_Guide_15-0/b_ESA_API_Guide_chapter_010.html#id_91367
+
