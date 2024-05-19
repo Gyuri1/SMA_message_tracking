@@ -22,7 +22,7 @@ port = "4431"
 
 def get_message_tracking_data(start_date, end_date, offset: int = 0, limit: int = 20):
     """ Function for retrieving messages from the SMA """
-    print("Retrieving messages the SMA...")
+    print("Retrieving messages from the SMA...")
     
     total_responses = limit
     full_response = []
