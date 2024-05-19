@@ -32,7 +32,7 @@ To track messages from the last 1 day and filter by a specific message ID (e.g.,
 
 ```py
 python3 sma_message_tracking.py  -d 1 -m 11244
-Retrieving messages the SMA...
+Retrieving messages from the SMA...
 Messages retrieved: 35
 Message MID: 11244  {
     "11243": [
