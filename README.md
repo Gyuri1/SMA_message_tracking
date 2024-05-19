@@ -8,20 +8,24 @@ Please download all the files from this repository and install `requests` python
 
 `pip install requests`  
 
+
+Update the contents of the `sma_credentials.py` file with Your specific configuration parameters!  
   
-Modify the `sma_credentials.py` file content according to Your parameters!
 
 # How to use:  
 
-There are 2 parameters of this script:  
- -d  : number of days (mandatory)  
- -m  : message ID (optional)  
+The script accepts two parameters:
+	•	-d : The number of days to look back for messages (mandatory)
+	•	-m : A specific message ID to track (optional)
      
 
-The script will list all of the messages if You do not specify the Message ID.  
+By default, the script will list all messages within the specified date range if no message ID is provided.
 
 
-Example:
+Expected output:
+
+
+To track messages from the last 1 day and filter by a specific message ID (e.g., 11244), use the following command:
 
 ```py
 python3 sma_message_tracking.py  -d 1 -m 11244
@@ -38,6 +42,8 @@ Message MID: 11244  {
 
 ```
 
-Useful reference:  
+# Useful reference:  
+For more information about the Message Tracking API, refer to the Cisco ESA API Guide 15.0:
 https://www.cisco.com/c/en/us/td/docs/security/esa/esa15-0/api_guide/b_Secure_Email_API_Guide_15-0/b_ESA_API_Guide_chapter_010.html#id_91367
+
 
