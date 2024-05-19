@@ -30,7 +30,7 @@ Expected output:
 
 To track messages from the last 1 day and filter by a specific message ID (e.g., 11244), use the following command:
 
-```py
+```bash
 python3 sma_message_tracking.py  -d 1 -m 11244
 Retrieving messages from the SMA...
 Messages retrieved: 35
