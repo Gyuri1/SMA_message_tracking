@@ -1,12 +1,15 @@
 # SMA_message_tracking
 
-This python script demonstrates how to use  Message Tracking API capabilities of Security Management Appliance (SMA)
+This Python script demonstrates how to leverage the Message Tracking API capabilities of Cisco's Security Management Appliance (SMA).  
+
 
 # How to install:  
 
-Please download all the files from this repository and install `requests` python module:  
+To get started, download all the files from this repository. Then, install the `requests` Python module by running:  
 
-`pip install requests`  
+```bash
+pip install requests
+```  
 
 
 Update the contents of the `sma_credentials.py` file with Your specific configuration parameters!  
