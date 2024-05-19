@@ -17,9 +17,9 @@ Update the contents of the `sma_credentials.py` file with Your specific configur
 
 # How to use:  
 
-The script accepts two parameters:
-	•	-d : The number of days to look back for messages (mandatory)
-	•	-m : A specific message ID to track (optional)
+The script accepts two parameters:  
+	•	-d : The number of days to look back for messages (mandatory)  
+	•	-m : A specific message ID to track (optional)  
      
 
 By default, the script will list all messages within the specified date range if no message ID is provided.
